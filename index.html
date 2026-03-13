@@ -1,6 +1,184 @@
 <<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
+   <head>
+   
+      <meta charset="UTF-8">
+      <meta name="view point" content="width=device-width, initial scale=1.0">
+      <title>Mwamba Malwa Chinyimba|    Software engineerinhg portfolio</title>
+      <link rel="stylesheet" href="css/styles.css">
+      
+   </head>
+   <body>
+      <!--
+    Lab 1: HTML5 Document Structure and Semantics
+    CSC4035 Web Programming and Technologies
+
+    Instructions:
+    1. Add the HTML5 doctype declaration above this comment
+    2. Complete the document structure following the lab instructions
+    3. Validate your code at https://validator.w3.org/
+    4. Take a screenshot of successful validation
+
+    Build a personal portfolio page following the structure below.
+-->
+
+<!-- TODO: Add HTML5 doctype here -->
+
+<!-- TODO: Add html element with lang="en" attribute -->
+
+    <!-- TODO: Add head element with:
+        - meta charset="UTF-8"
+        - meta viewport for responsive design
+        - meaningful title
+    -->
+
+    <!-- TODO: Add body element containing:
+
+        1. HEADER with:
+           - h1 with your name
+           - p with your tagline/description
+
+        2. NAV with:
+           - ul containing 4+ navigation links
+           - Links: About, Skills, Projects, Contact
+           - Use anchor links (#about, #skills, etc.)
+
+        3. MAIN element wrapping:
+
+           a) SECTION id="about"
+              - h2 heading
+              - 2+ paragraphs about yourself
+              - Image with alt text
+
+           b) SECTION id="skills"
+              - h2 heading
+              - ul with 6+ skills
+              - Use <strong> or <em> for emphasis
+
+           c) SECTION id="projects"
+              - h2 heading
+              - 2+ ARTICLE elements, each with:
+                - h3 project title
+                - p description
+                - Link to project
+
+           d) SECTION id="contact"
+              - h2 heading
+              - FORM with:
+                - Name input (text, required)
+                - Email input (email, required)
+                - Subject select (3+ options)
+                - Message textarea (required)
+                - Submit button
+              - All inputs need matching LABELs with for=""
+
+        4. FOOTER with:
+           - Copyright notice
+           - ul with 3+ social media links
+    -->
+      <header>
+         <h1>Mwamba Malwa Chinhyimba</h1>
+         <p>I am a student at the University of Zambia studying Computer science with a strong passion in Software engineering .I enjoy solving technical problems and continuosly expanding my knowledge in the IT field</p>  
+      </header>
+      <nav>
+        <a href="#hero">Welcome</a>
+        <a href="about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <main>
+    
+      </main>
+
+    
+         <ul>
+            <li><a href = "#about"> About </a></li>
+            <li><a href = "#skills"> Skills </a></li>
+            <li><a href = "#projects"> Projects </a></li>
+            <li><a href = "#about"> Contact </a></li>
+         </ul>
+      </nav>
+      <main>
+         <section id="hero" class="hero">
+            <h2>Welcome to my Page :) <br>
+            <a href="#projects">Take a look at my work</a></h2>
+         </section>
+         <section id = "about">
+            <h2>About me</h2>
+            <p> My name is Mwamba Malwa Chinyimba, My goal is to become a skilled professional who contributes to secure and efficient digital systems. I am constantly learning and improving my skills through projects and hands on practice. Beyond technical skills, i value discipline, continous learning and Family.I believe that consistency,resilience and willingness to learn are foundations of success.</p>
+            <img src="images/mwamba.jpeg" alt="A picture of me">
+         </section>
+         <section id="skills">
+            <h2>My skills</h2>
+            <ul>
+               <li><strong>HTML5</strong></li>
+               <li>Critical thinking</li>
+               <li>Coding in PHP Pyhon</li>
+               <li>Problem Solving</li>
+            </ul>
+         </section>
+
+         <section id="projects">
+            <h2>My Projects</h2>
+            <article>
+               <h3>Portfolio Website</h3>
+               <p>A responsive portfolio built with HTML5 </p>
+               <a href="#">View Project</a>
+            </article>
+         <article>
+                <h3>Task Manager</h3>
+                <p>An interactive task management application.</p>
+                <a href="#">View Project</a>
+            </article>
+            <article>
+                <h3>Task Manager</h3>
+                <p>Library Management system.</p>
+                <a href="#">View Project</a>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject" required>
+                    <option value="">Select a subject</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="project">Collaboration</option>
+                    <option value="project">Ideas & suggestions</option>
+                    <option value="feedback">Feedback</option>
+                </select>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mwamba Malwa Chinyimba. All rights reserved.</p>
+        <ul>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Twitter</a></li>
+        </ul>
+    </footer>
+</body>
+</html>    
+
+
+
+DOCTYPE html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +191,18 @@
 <header class="site-header">
     <h1 class="logo">Mwamba's Portfolio</h1>
 
+<nav>
+        <a href="#hero">Welcome</a>
+        <a href="about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <main>
+
+    
+      </main>
+
+    
     <nav>
         <ul class="nav-list">
             <li><a href="#">Home</a></li>
@@ -23,7 +213,10 @@
         </ul>
     </nav>
 </header>
-
+<section id="hero" class="hero">
+            <h2>Welcome to my Page :) <br>
+            <a href="#projects">Take a look at my work</a></h2>
+         </section>
 
 <main>
 
